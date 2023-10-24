@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
   double avg{0};
   double sum{0};
   bool first{true};
-  for (const std::string argument : arguments) {
+  for (std::string argument : arguments) {
     if (first) {
       first = false;
       continue;
