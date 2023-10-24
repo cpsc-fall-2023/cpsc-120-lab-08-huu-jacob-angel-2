@@ -16,14 +16,14 @@ int main(int argc, char* argv[]) {
   double avg{0};
   double sum{0};
   bool first{true};
-  for (std::string &argument : arguments) {
+  for (const std::string& argument : arguments) {
     if (first) {
       first = false;
       continue;
     }
     double index{std::stod(argument)};
     sum += index;
-    avg = sum / argc- 1;
+    avg = sum / (argc - 1);
   }
   std::cout << "average = " << avg << "\n";
   return 0;
