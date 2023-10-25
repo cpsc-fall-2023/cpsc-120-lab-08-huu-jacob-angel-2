@@ -1,7 +1,7 @@
 // Huu Nguyen
 // huunguyen25@csu.fullerton.edu
 // @huunguyen25
-// Partners: @jacob, @angel
+// Partners: @jacji, @angel
 
 #include <iostream>
 #include <string>
